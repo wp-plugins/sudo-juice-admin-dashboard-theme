@@ -1,5 +1,9 @@
 /* ------ Left admin sidebar ------ */
 
+.wp-menu-arrow {
+display:none !important;
+}
+
 #adminmenu li.wp-has-current-submenu a.wp-has-current-submenu, #adminmenu li.current a.menu-top, #adminmenu .wp-has-current-submenu .wp-submenu .wp-submenu-head {
 text-shadow: 0 -1px 0 #333;
 color: white;
@@ -20,7 +24,7 @@ background-image: linear-gradient(bottom,#2b2b2b,#424242)
 background: transparent url(arrows-light.png) no-repeat -1px 6px;
 }
 
-#adminmenu li.wp-has-current-submenu a.wp-has-current-submenu, #adminmenu li.current a.menu-top, .folded #adminmenu li.wp-has-current-submenu, .folded #adminmenu li.current.menu-top, #adminmenu .wp-menu-arrow, #adminmenu .wp-has-current-submenu .wp-submenu .wp-submenu-head {
+#adminmenu li.wp-has-current-submenu a.wp-has-current-submenu, #adminmenu li.current a.menu-top, .folded #adminmenu li.wp-has-current-submenu, .folded #adminmenu li.current.menu-top, #adminmenu .wp-menu-arrow, #adminmenu .wp-has-current-submenu .wp-submenu .wp-submenu-head  {
 background-color: #333;
 background-image: -ms-linear-gradient(bottom,#2b2b2b,#424242);
 background-image: -moz-linear-gradient(bottom,#2b2b2b,#424242);
@@ -28,7 +32,19 @@ background-image: -o-linear-gradient(bottom,#2b2b2b,#424242);
 background-image: -webkit-gradient(linear,left bottom,left top,from(#2b2b2b),to(#424242));
 background-image: -webkit-linear-gradient(bottom,#2b2b2b,#424242);
 background-image: linear-gradient(bottom,#2b2b2b,#424242);
+border-top-color: #424242 !important;
+border-bottom-color: #2B2B2B !important;
 }
+
+
+#adminmenu li.menu-top:hover > a, #adminmenu li.menu-top.focused > a, #adminmenu li.menu-top > a:focus {
+background-color: #E4E4E4;
+text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+border-top-color: #E4E4E4;
+border-bottom-color: #E4E4E4;
+}
+
+
 
 #adminmenuback,#adminmenuwrap{
 background-color:#333;
@@ -67,14 +83,9 @@ background-image: -webkit-linear-gradient(right,#424242,#f4f4f4);
 background-image: linear-gradient(right,#424242,#424242);
 }
 
-#adminmenu li.wp-menu-open {
-border-color: #424242;
-}
-
-
 #adminmenu a.menu-top, .folded #adminmenu li.menu-top, #adminmenu .wp-submenu .wp-submenu-head {
-border-top-color: #3f3f3f;
-border-bottom-color: #2b2b2b;
+border-top-color: #3f3f3f !important;
+border-bottom-color: #2b2b2b !important;
 }
 
 #adminmenu .wp-submenu ul {

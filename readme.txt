@@ -2,7 +2,7 @@
 Contributors: Sudojuice
 Tags: admin theme, dashboard theme, dark
 Requires at least: 3.2.1
-Tested up to: 3.2.1
+Tested up to: 3.3.1
 Stable tag: trunk
 
 A simple, light-wight, dark Wordpress admin dashboard theme.
@@ -28,3 +28,21 @@ Uninstalling is as simple as deactivating the plugin.
 == Frequently Asked Questions ==
 
 None yet, if you have one post it at http://www.sudo-juice.com/wordpress-admin-dashboard-theme-plugin
+
+
+== Changelog ==
+
+= 0.2 =
+* Fixed some design issues that were created with the release of wordpress 3.3.1
+
+= 0.1 =
+* Initial release for wordpress 3.2.1
+
+
+== Upgrade Notice ==
+
+= 1.0 =
+Upgrade for a better dashboard experience after the 3.3 release
+
+= 0.1 =
+Initial release for wordpress 3.2.1
